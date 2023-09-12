@@ -9,13 +9,13 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class SpringbootCicdApplication {
 
-	@GetMapping("/message")
+	@GetMapping("/messages")
 	public String getMessage() {
 		
 		return "Hello spring boot with Docket";
 		
 	}
-	
+
 	public static void main(String[] args) {
 		SpringApplication.run(SpringbootCicdApplication.class, args);
 	}
